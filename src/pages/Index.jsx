@@ -13,7 +13,7 @@ const buildings = [
 
 // Custom pin icon
 const pinIcon = new L.Icon({
-  iconUrl: require('../assets/pin-icon.png'),
+  iconUrl: 'path/to/default/marker-icon.png', // Placeholder path for default marker icon
   iconSize: [25, 41],
   iconAnchor: [12, 41],
   popupAnchor: [1, -34],
